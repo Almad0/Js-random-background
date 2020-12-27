@@ -19,6 +19,8 @@ bottone.addEventListener("click", function () {
   for (var i = 0; i < newBackground.length; i++) {
     y += newBackground[i]
   }
-  var b = document.getElementById('newBack');
-  b.style.backgroundColor =  y;
+  var body = document.getElementById('newBack');
+  body.style.backgroundColor =  y;
+  var button = document.getElementById('newColor');
+  button.style.backgroundColor = y;
 });
