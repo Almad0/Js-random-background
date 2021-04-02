@@ -21,7 +21,9 @@ body{
   background-color: lightblue;
   cursor: pointer;
   box-shadow: none;
-  font-size: 1.5rem;
+  font-size: 4rem;
+  font-style: italic;
+  font-family: sans-serif;
   border-color: none;
   border-style: none;
 }
