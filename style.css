@@ -6,7 +6,9 @@
 body{
   background-color: white;
 }
+
 .all{
+  cursor: pointer;
   width: 100vw;
   height: 100vh;
 }
@@ -18,8 +20,7 @@ body{
 #newColor{
   padding: 10px;
   border-radius: 10px;
-  background-color: lightblue;
-  cursor: pointer;
+  text-shadow: 2px 2px white;
   box-shadow: none;
   font-size: 4rem;
   font-style: italic;
@@ -30,3 +31,5 @@ body{
 #newColor:focus{
   display: none;
 }
+
+
